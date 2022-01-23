@@ -5,6 +5,9 @@
   border-radius: 20px;
   margin: 1rem;
 }
+.welcomePageUnit img {
+  width: 300px;
+}
 
 .theBelethorPart {
   display: flex;
@@ -13,22 +16,32 @@
   justify-content: center;
   align-items: center;
 }
+
+.belethorFace {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
 .theQuote {
   font-size: 2rem;
   margin: 1rem;
 }
 #smaller {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .welcomPart {
   padding: 1rem;
   font-weight: normal;
-  line-height: 1.5rem;
+  line-height: 3rem;
 }
 
 @media screen and (max-width: 1100px) {
   .theBelethorPart {
     display: flex;
     flex-direction: column;
+  }
+  .welcomePageUnit img {
+    width: 200px;
   }
 }
