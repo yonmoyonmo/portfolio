@@ -1,0 +1,18 @@
+.oneUnitOfAbout {
+  border: 1px rgb(0, 0, 0) solid;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.textPart {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#contact {
+  font-size: 0.8rem;
+}
