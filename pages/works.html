@@ -37,7 +37,7 @@
           </div>
 
           <div class="tooltip">
-            <div class="tooltipText">증거(proof)</div>
+            <div class="tooltipText">기타 자료(etc...)</div>
             <a href="../pages/proof.html"
               ><img src="../images/wonmoface.png" class="buttonImage"
             /></a>
@@ -63,17 +63,22 @@
 
             </div>
             <div class="appDescription">
-              <p id="english">
-                Quitouch is designed for quitting bad habits like smoking cigarettes.<br/>
-                By keeping touching this app's character: quitachi, you could endure your bad desires.
-                With the same way, you can endure whatever needed patience like sudden poop!
-                Have a nice Quitouch!
-              </p>
               <p id="korean">
-                Quitouch는 흡연 같은 나쁜 습관들을 고칠 수 있도록 도와줍니다. 
+                "Quitouch는 흡연 같은 나쁜 습관들을 고칠 수 있도록 도와줍니다. 
                 계속 이 앱의 케릭터인 키타치를 터치하면서 당신의 나쁜 욕망들로 인한 번뇌를 참아보세요! 
-                같은 방법으로 인내심을 필요로 하는 어떤 상황에서든 응용될 수 있습니다! 예를 들자면 급똥 같은 거요!
+                같은 방법으로 인내심을 필요로 하는 어떤 상황에서든 응용될 수 있습니다! 예를 들자면 급똥 같은 거요!"
               </p>
+              <br/>
+                플러터로 개발된 모바일 앱입니다, Aseprite로 제작된 도트 디자인을 적용해 보는 실험이었습니다.
+                <br/>
+                flutter 방식의 MVVM 디자인 패턴을 적용했습니다.
+                <br/>
+                <h3>사용 기술</h3>
+                <ul>
+                  <li>모바일 앱 : Flutter</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/Quitouch">Here</a></li>
+                  <br/>
+                </ul>
             </div>
           </div>
         </div>
@@ -97,14 +102,71 @@
             </div>
             <div class="appDescription">
               <p id="korean">
-                어색한 순간에 한 줄기 빛!
+                "어색한 순간에 한 줄기 빛!
                 스몰 토크가 어려운 당신을 위해 존재한다!
-                스몰 토크 헬퍼!
-                
+                스몰 토크 헬퍼!"
+                <br/>
+                <br/>
+                플러터로 개발된 모바일 앱과 랜덤 대화 주제 API 서버 앱으로 이뤄진 서비스입니다.
+                <br/>
+                <h3>사용 기술</h3>
+                <ul>
+                  <li>모바일 앱 : Flutter</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/small_talk_helper_app">Here</a></li>
+                  <br/>
+                  <li>백엔드 : node.js express + typeORM</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/small_talk_helper_backend">Here</a></li>
+                  <br/>
+                </ul>
               </p>
-              <p id="english">
-                When you are stucked in an awkward conversation, Small Talk Helper will help!<br/>
-                But it's in only Korean.
+            </div>
+          </div>
+        </div>
+        <!--oneUnitOfAppEnd-->
+        <!--oneUnitOfApp : wonmo cyber school-->
+        <div class="oneUnitOfApp">
+          <div class="appsContent">
+            <div class="appContentLeftSide">
+              <h3 id="appTitle">원모 싸이버 스쿨 </br>(wonmo cyber school)</h3>
+              <img src="../images/wcs.gif" class="appIcon" />
+              <div class="appStoreLinks">
+                <a href="https://wonmocyberschool.com">
+                  방문하기
+                </a>
+              </div>
+
+            </div>
+            <div class="appDescription">
+              <p id="korean">
+                "22세기 우리 후손들이 계승해주기를 바라는 Cyber 학파, Wonmo Cyber School"
+                <br/>
+                <br/>
+                주로 웹과 관련한 기술들을 실험해보고, 제 기준 웃긴 자료들을 모아놓는 개인 웹사이트입니다.<br/>
+                MSA에 빠져있을 적 설계했기 때문에 그 영향을 받아서, 백엔드 서비스를 인증API, 게시물API, 파일 스토리지API로 나눠 개발했습니다.
+                <br/>
+                "원모 싸이버 술 먹방"이라는 WebRTC기반 화상 채팅 기능이 있었으나 현재 작동을 멈춘 상태입니다. 
+                <br/>디버깅의 필요성을 못느껴 방치 중이긴 하나, 또 다시 흥미를 느낀다면 그 때 고칠 예정입니다.
+
+                <img src="../images/sool.png" class="appIcon"  style="width: 80%; height: auto; margin: 1rem;"/>
+                <br/>
+                정상 작동 하던 당시 모습.
+                <br/>
+                <h3>사용 기술</h3>
+                <ul>
+                  <li>프론트엔드 : Next.js</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/wcs-blog-front-end">Here</a></li>
+                  <br/>
+                  <li>API 서버 앱 : Spring Boot + JPA</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/wcs-blog-api-app">Here</a></li>
+                  <br/>
+                  <li>Authentication 서버 앱 : Spring Boot + JPA</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/wcs-authentication">Here</a></li>
+                  <br/>
+                  <li>파일 서버 앱 : Spring Boot + JPA</li>
+                  <li>gitHub Repository : <a href="https://github.com/yonmoyonmo/wcs-image-server">Here</a></li>
+                  <br/>
+                  
+                </ul>
               </p>
             </div>
           </div>

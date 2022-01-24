@@ -35,3 +35,12 @@ canvas {
   top: 0;
   z-index: -1;
 }
+
+.proofimg {
+  width: 70%;
+}
+@media screen and (max-width: 1100px) {
+  .proofimg {
+    width: 100%;
+  }
+}
