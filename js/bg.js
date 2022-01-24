@@ -13,7 +13,7 @@ class BackG {
 
     this.pixelRatio = window.devicePixelRatio > 1 ? 2 : 1;
 
-    this.totalParticles = 20;
+    this.totalParticles = 10;
     this.particles = [];
     this.maxRadius = 1000;
     this.minRadius = 500;

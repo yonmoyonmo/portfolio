@@ -8,32 +8,24 @@
 .welcomePageUnit img {
   width: 300px;
 }
-
 .theBelethorPart {
   display: flex;
   flex-direction: row;
   padding: 2rem;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: left;
 }
-
-.belethorFace {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-}
-
 .theQuote {
-  font-size: 2rem;
+  text-align: left;
+  font-size: 1rem;
   margin: 1rem;
+  line-height: 2rem;
 }
-#smaller {
-  font-size: 1.3rem;
-}
+
 .welcomPart {
   padding: 1rem;
   font-weight: normal;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 @media screen and (max-width: 1100px) {
